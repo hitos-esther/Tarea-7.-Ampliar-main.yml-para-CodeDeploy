@@ -225,10 +225,10 @@ Resources:
     ApplicationName: 
       Ref: EstherCodeDeployEC2
     DeploymentGroupName: !Ref EstherCodeDeploy
-      Ec2TagFilters:
-        - Key: !Ref Name
-          Value: !Ref AWS::StackName
-          Type: KEY_AND_VALUE
+    Ec2TagFilters: 
+      - Key: !Ref Name
+        Value: !Ref AWS::StackName
+        Type: KEY_AND_VALUE
     ServiceRoleArn: 
       arn:aws:iam::929173266209:role/LabRole
 Outputs:
