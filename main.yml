@@ -230,7 +230,7 @@ Resources:
         Value: !Ref AWS::StackName
         Type: KEY_AND_VALUE
     ServiceRoleArn: 
-      arn:aws:iam::929173266209:role/LabRole
+      'arn:aws:iam::929173266209:role/LabRole'
 Outputs:
   EndPoint:
     Description: "DNS publica"
