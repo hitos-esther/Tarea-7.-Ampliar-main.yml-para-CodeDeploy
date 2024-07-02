@@ -182,7 +182,7 @@ Resources:
             node -v
             npm -v
             nvm install --lts
-            curl -sL https://github.com/hitos-esther/AWS-NodeJS/archive/master.zip --output master.zip
+            curl -sL https://github.com/{git-name}/{repository-name}/archive/master.zip --output master.zip
             mkdir -p ~/logs
             unzip master.zip
             mv aws-helloworld-node-master/ app 
